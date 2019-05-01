@@ -18,9 +18,13 @@ We will be looking at
 * Usage of current good practices
 * Use of Javascript built in data structures and methods
 
+Feel free to show us what you can do, at Seenit we love to be impressed.
+
 ## Test Submission
 
 * Fork this repo
 * Send us a link to your repo either directly or through your recruiter
+
+
 
 
