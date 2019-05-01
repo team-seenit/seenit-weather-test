@@ -23,6 +23,7 @@ Feel free to show us what you can do, at Seenit we love to be impressed.
 ## Test Submission
 
 * Fork this repo
+* Make your changes (We dont expect you to spend a long time on this, hopefully you can get this done in a few hours)
 * Send us a link to your repo either directly or through your recruiter
 
 
