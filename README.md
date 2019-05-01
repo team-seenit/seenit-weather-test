@@ -14,6 +14,9 @@ We will be looking at
 * Code Quality
 * Test Strategy
 * Reactive design
+* Readability of code
+* Usage of current good practices
+* Use of Javascript built in data structures and methods
 
 ## Test Submission
 
