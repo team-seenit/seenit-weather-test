@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Coding Challenge
 
-For this coding challenge we would like you to write a simple reactive page that will display a summary of todays weather based on the users location. The location can be obtained however you want. The app must make api calls to a free weather service, e.g. https://openweathermap.org/api.
+For this coding challenge we would like you to write a simple reactive page that will display a summary of todays weather based on the users location. The location can be obtained however you want (Browser location, geoip lookup). The app must make api calls to a free weather service, e.g. https://openweathermap.org/api.
 
 ## Technology
 
