@@ -7,3 +7,42 @@
   width: 100vw;
   overflow: hidden;
 }
+
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#location .content {
+  z-index: 2;
+}
+
+#location form {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  width: 70%;
+  margin: auto;
+}
+
+#location form>input{
+  margin: 2% 0;
+  height: 4vh;
+  background: inherit;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 2%;
+}
+
+#location form>input::placeholder{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#location form>input:focus{
+  outline: none;
+}
