@@ -43,7 +43,7 @@
   font-weight: bold;
 }
 
-#location form>input:focus{
+#location form input:focus{
   outline: none;
 }
 
