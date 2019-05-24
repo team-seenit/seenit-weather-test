@@ -46,3 +46,27 @@
 #location form>input:focus{
   outline: none;
 }
+
+#location .btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 3%;
+}
+
+#location .btn input{
+  width: 100px;
+  height: 40px;
+  background: inherit;
+  color: white;
+  border: solid 2px white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 1.5s, background 1.5s;
+}
+
+#location .btn input:hover{
+  background: white;
+  color: black
+}
