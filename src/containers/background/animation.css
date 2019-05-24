@@ -1,0 +1,135 @@
+#background {
+   position: absolute;
+   /* display: grid;
+   grid-template-rows: 20% 80%; */
+}
+
+#sunny {
+   background: skyblue;
+}
+
+#raining {
+   background: #a7b8c4;
+   display: grid;
+   grid-template-rows: 20% 80%;
+}
+
+/* #background div {
+   border: solid 1px black;
+} */
+
+.clouds {
+   position: relative;
+}
+
+.clouds img {
+   position: absolute;
+   z-index: 2;
+   transition: transform 3s;
+   height: 18vh;
+}
+
+.clouds .c1 {
+   top: 5vh;
+   left: 10vw;
+}
+
+.clouds .c2 {
+   top: 0;
+   left: 39vw;
+   height: 24vh;
+}
+
+.clouds .c3 {
+   top: 8vh;
+   left: 59vw;
+}
+
+.sky {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+
+.sky img {
+   height: 350px;
+   z-index: -1;
+   transition: transform 18s ease-in-out;
+   transform-origin: 50% 300%;
+}
+
+.set {
+   transform: rotate(360deg);
+}
+
+#background.dark {
+   background-color: #23383f;
+}
+
+body #root .App #background #raining #Rain .drop {
+   background: gainsboro;
+   top: 0px;
+}
+
+#raining .clouds img {
+   top: -8vh;
+   height: 24vh;
+}  
+
+#raining .clouds .rc1 {
+   left: 90vw;
+}
+
+#raining .clouds .rc2 {
+   left: 70vw;
+   height: 30vh;
+}
+
+#raining .clouds .rc3 {
+   left: 59vw;
+}
+
+#raining .clouds .rc4 {
+   left: 0vw;
+}
+
+#raining .clouds .rc5 {
+   left: 17vw;
+   height: 30vh;
+   top: -15vh;
+}
+
+#raining .clouds .rc6 {
+   left: 80vw;
+   height: 22vh;
+}
+
+#raining .clouds .rc7 {
+   top: -5vh;
+   left: 35vw;
+   height: 28vh;
+}
+
+#raining .clouds .rc8 {
+   top: -8vh;
+   left: 50vw;
+   height: 20vh;
+}
+
+#background>div {
+   position: absolute;
+   top: 0;
+   transition: all 2s ease-in-out;
+}
+
+#background .middle {
+   left: 0;
+}
+
+#background .right {
+   left: 100vw;
+}
+
+#background .left {
+   left: -100vw;
+}
